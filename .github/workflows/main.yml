@@ -1,0 +1,11 @@
+name: testje
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: timhendrixenUWV/action@v1
